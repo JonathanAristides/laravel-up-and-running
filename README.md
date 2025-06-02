@@ -1,7 +1,3 @@
-Here is a **detailed bullet point summary** of all the Laravel routing and controller topics you've listed — including subheadings:
-
----
-
 ### **MVC (Model-View-Controller)**
 
 * A design pattern that separates concerns:
