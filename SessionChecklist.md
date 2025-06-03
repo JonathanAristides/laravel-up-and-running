@@ -1,14 +1,4 @@
-Great — here's a **clean step-by-step session guide** based solely on the **TaskBoard project** we built together earlier. This guide helps you implement the full routing & controller flow *hands-on*, focusing on:
-
-* Manual routes
-* Controller logic
-* Views
-* Route handling features
-* One simple model
-
----
-
-# ✅ Laravel TaskBoard – Step-by-Step Session Guide
+#  Laravel TaskBoard – Step-by-Step Session Guide
 
 ---
 
@@ -164,7 +154,3 @@ route('tasks.edit', $task)
 * [ ] Confirm all CRUD works
 * [ ] Confirm fallback and redirect work
 * ✅ Done!
-
----
-
-Would you like this saved as a downloadable `.md` file for your session folder?
