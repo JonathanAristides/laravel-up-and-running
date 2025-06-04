@@ -419,5 +419,5 @@
 * Laravel routes handle incoming requests using clean syntax and REST principles.
 * Use middleware, controllers, route caching, and response helpers to build full-featured apps efficiently.
 
-
+./vendor/bin/sail bash -> für Laravel Sail in terminal 
 
