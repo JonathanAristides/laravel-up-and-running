@@ -1,9 +1,12 @@
 <?php
 
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
+    $user = User::find(4); // $user->name works
+
     $testVariable = "This is a test variable";
     $testBoolean = true;
     $testArray = ['item1', 'item2', 'item3'];
@@ -19,6 +22,7 @@ Route::get('/', function () {
         'testBoolean' => $testBoolean,
         'testArray' => $testArray,
         'testArrayOfObjects' => $testArrayOfObjects,
+        'user' => $user,
     ]);
 });
 

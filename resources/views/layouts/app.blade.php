@@ -11,7 +11,10 @@
     @stack('scripts')
 </head>
 <body>
-    <header>Header</header>
+    {{--    #19--}}
+    <header>
+        {{$appName}}
+    </header>
 
     {{--    #9--}}
     @include('partials.nav')
@@ -24,7 +27,9 @@
         @yield('scripts')
     </main>
 
-    <footer>Footer here</footer>
+    {{--    #22--}}
+    @include('partials.footer')
+
 </body>
 </html>
 

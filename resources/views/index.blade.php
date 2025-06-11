@@ -6,6 +6,23 @@
     {{--    #1--}}
     <h1>Hello, {{ $testVariable }}</h1>
 
+    {{--        #24--}}
+    {{$user['name']}}
+    @datetime($user['created_at'])
+    <br>
+    <br>
+    {{--    #25--}}
+    @badge('error badge', 'red')
+    <br>
+    <br>
+
+
+    {{--    #26--}}
+    @userIdIsEven
+    <p>Only Users with Even Id can see this.</p>
+    @enduserIdIsEven
+
+
 
     {{--    #2--}}
     @if($testBoolean)
